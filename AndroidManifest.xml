@@ -4,7 +4,7 @@
       package="in.celest.xash3d.sohl12"
       android:versionCode="1170"
       android:versionName="1.1">
-    <uses-sdk android:minSdkVersion="3" android:targetSdkVersion="23"/>
+    <uses-sdk android:minSdkVersion="9" android:targetSdkVersion="23"/>
     <!-- Set your application name here -->
     <application android:label="SOHL12Launcher"
 		 android:debuggable="false"
