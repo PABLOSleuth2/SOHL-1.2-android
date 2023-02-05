@@ -19,10 +19,21 @@
         android:layout_height="wrap_content"
         android:id="@+id/cmdArgs"/>
 <Button
-        android:layout_width="wrap_content"
+        android:layout_width="200.0dip"
         android:layout_height="wrap_content"
         android:id="@+id/button_launch"
 	android:text="@string/launch_button"
-        android:layout_gravity="right"
+        android:layout_gravity="center"
         android:onClick="startXash"/>
+<TextView
+	android:textSize="12.0sp"
+	android:textColor="#ff000000"
+	android:gravity="center_horizontal"
+	android:id="@id/textview1"
+	android:padding="8.0dip"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Build By: Pablo Sleuth"
+	android:translationX="175.0dip"
+	android:translationY="800.0dip"/>
 </LinearLayout>
