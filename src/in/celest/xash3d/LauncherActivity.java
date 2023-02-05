@@ -31,7 +31,7 @@ public class LauncherActivity extends Activity {
         cmdArgs = (EditText)findViewById(R.id.cmdArgs);
 		cmdArgs.setSingleLine(true);
 		mPref = getSharedPreferences("mod", 0);
-		cmdArgs.setText(mPref.getString("argv","-dev 3 -log")); 
+		cmdArgs.setText(mPref.getString("argv","-dev 3 -log -game Gmod13")); 
 	}
 
 	public void startXash(View view)
@@ -47,7 +47,7 @@ public class LauncherActivity extends Activity {
 		editor.apply();
 		if(cmdArgs.length() != 0) intent.putExtra("argv", argv);
 		// Uncomment to set gamedir here
-		intent.putExtra("gamedir", "Spirit");
+		intent.putExtra("gamedir", "Gmod13");
 		intent.putExtra("gamelibdir", getFilesDir().getAbsolutePath().replace("/files","/lib"));
 
 		PackageManager pm = getPackageManager();
