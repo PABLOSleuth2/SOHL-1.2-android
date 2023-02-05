@@ -17,10 +17,10 @@
 <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/cmdArgs"/>
         android:editable="false"
         android:focusable="false"
         android:clickable="false"
+        android:id="@+id/cmdArgs"/>
 <Button
         android:layout_width="200.0dip"
         android:layout_height="wrap_content"
